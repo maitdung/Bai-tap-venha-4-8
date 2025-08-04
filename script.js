@@ -73,7 +73,7 @@ console.log(tinhCanChi(2004));
 
 
 function tinhThuTrongTuan(ngay, thang, nam) {
-    const date = new Date(nam, thang - 1, ngay); // Tháng tính từ 0
+    const date = new Date(nam, thang - 1, ngay); 
     const thu = ["Chủ Nhật", "Thứ Hai", "Thứ Ba", "Thứ Tư", "Thứ Năm", "Thứ Sáu", "Thứ Bảy"];
 
     if (isNaN(date)) {
@@ -118,8 +118,8 @@ function timBCNN(a, b) {
   return bcnn;
 }
 
-// Gọi thử
-timBCNN(12, 18); // Kết quả: 36
+
+timBCNN(12, 18);
 
 
 function laSoNguyenTo(n) {

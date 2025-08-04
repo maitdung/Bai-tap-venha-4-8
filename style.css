@@ -1,0 +1,31 @@
+
+    body {
+      font-family: sans-serif;
+      text-align: center;
+      padding: 30px;
+    }
+
+    .keyboard {
+      display: inline-block;
+      background: #f2f2f2;
+      padding: 15px;
+      border-radius: 8px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    }
+
+    .key {
+      display: inline-block;
+      width: 40px;
+      height: 40px;
+      margin: 5px;
+      background: #e0e0e0;
+      border-radius: 4px;
+      line-height: 40px;
+      font-weight: bold;
+      cursor: pointer;
+      transition: background 0.2s;
+    }
+
+    .key:hover {
+      background: #ccc;
+    }
